@@ -1,0 +1,64 @@
+.collec {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 500px;
+    width: 100%;
+}
+
+.caruselka .carousel {
+    /* width: 950px; */
+    width: 100%;
+    margin: 0 auto;
+    height: 500px;
+}
+
+.caruselka {
+    /* width: 950px; */
+    width: 100%;
+    margin: 0 auto;
+    /* min-height: 500px; */
+    height: auto;
+    margin-left: 2.7em;
+}
+
+.caruselka .carousel-control-next {
+   left: 45em;
+  
+}
+
+.caruselka .carousel-control-prev {
+    /* margin-right: auto;  */
+    left: -3em;
+} 
+
+.caruselka .carousel-control-next-icon {
+    max-width: 60px;
+    max-height: 60px;
+    background-color: #111111;
+    position:absolute;
+    border-radius: 50%;
+    right: -95px;
+}
+
+.caruselka .carousel-control-prev-icon {
+    max-width: 60px;
+    max-height: 60px;
+    background-color: #111111;
+    position: absolute;
+    border-radius: 50%;
+    margin-left: auto;
+    left: -55px;
+}
+
+.caruselka .carousel-indicators button{
+    display: none;
+}
+
+.caruselka .carousel-inner {
+   margin: 0 auto;
+}
+
+
+
+

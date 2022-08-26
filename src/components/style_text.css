@@ -1,0 +1,57 @@
+.main__bottom_header {
+    font-weight: 700;
+    font-size: 24px;
+    height: 30px;
+    /* width: 489px; */
+    /* width: 300px; */
+    color: #A4ACAD;
+    text-align: start;
+    box-sizing: border-box;
+}
+
+.main__bottom_text-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* width: 950px; */
+    width: 100%;
+    height: 228px;
+    color: #A4ACAD;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: start;
+    line-height: 18px;
+}
+
+.main__bottom_text-content div {
+    line-height: 18px;
+    margin-bottom: 10px;
+}
+
+.main__bottom_text-about {
+    height: 24px;
+    width: 120px;
+    margin: 50px auto;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    color: #F46D40;
+}
+
+.main__bottom {
+    margin-top: 50px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 1.2em 0 1.2em;
+}
+
+.main__bottom_text-about::after {
+    content: url("../images/VectorAbout.svg");
+    width: 15px;
+    height: 7px;
+}
+
+
+
+
+

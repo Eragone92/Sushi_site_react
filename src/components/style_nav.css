@@ -1,0 +1,113 @@
+.navbar li a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .navbar li {
+    list-style: none;
+    margin: 30px 10px 30px 10px;
+    font-size: 20px;
+    line-height: 29.76px;
+  }
+  
+  .navbar li:nth-child(1)::before {
+    content: url("../images/1.svg");
+    width: 30px;
+    height: 27.7px;
+    margin-right: 21px;
+  }
+  .navbar li:nth-child(2)::before {
+    content: url("../images/Сеты.svg");
+    width: 27.07px;
+    height: 29px;
+    margin-right: 22.3px;
+  }
+  .navbar li:nth-child(3)::before {
+    content: url("../images/Vector_wok.svg");
+    width: 24.4px;
+    height: 25px;
+    margin-right: 22.8px;
+  }
+  .navbar li:nth-child(4)::before {
+    content: url("../images/Vector_rolls.svg");
+    width: 30px;
+    height: 24px;
+    margin-right: 20px;
+  }
+  .navbar li:nth-child(5)::before {
+    content: url("../images/Vector_sushi.svg");
+    width: 30px;
+    height: 18px;
+    margin-right: 20px;
+  }
+  .navbar li:nth-child(6)::before {
+    content: url("../images/Vector_salads.svg");
+    width: 27.07px;
+    height: 29px;
+    margin-right: 20px;
+  }
+  .navbar li:nth-child(7)::before {
+    content: url("../images/Vector_soups.svg");
+    margin-right: 20.47px;
+  }
+  .navbar li:nth-child(8)::before {
+    content: url("../images/Vector_corn_dogs.svg");
+    margin-right: 21px;
+  }
+  .navbar li:nth-child(9)::before {
+    content: url("../images/Vector_drinks.svg");
+    margin-right: 35px;
+  }
+  .navbar li:nth-child(10)::before {
+    content: url("../images/Group.svg");
+    margin-right: 21px;
+    width: 28px;
+    height: 29px;
+  }
+  
+  .nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* min-width: 250px;
+    max-width: 350px; */
+    width: 18%;
+    height: 100%;
+  }
+  
+  .navbar {
+    padding: 0;
+    /* display: flex;
+    flex-direction: column;
+    align-items: flex-start; */
+    width: 190px;
+    /* width: 100%; */
+    height: 750px;
+    box-sizing: border-box;
+  }
+  
+  .block {
+    width: 200px;
+    background-color: #a4acad;
+    height: 0.5px;
+  }
+  
+  .nav__logo {
+    width: 130px;
+    height: 141.6px;
+    background-image: url("../images/logo.png");
+    background-repeat: no-repeat;
+    padding: 0;
+    background-position: center;
+  }
+  .nav__logo_text {
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 30px;
+    left: 127px;
+    width: 170px;
+    border-bottom: 0.5px solid #a4acad;
+    padding-bottom: 30px;
+    padding-top: 0;
+  }
+  

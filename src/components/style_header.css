@@ -1,0 +1,107 @@
+
+
+
+
+.heder__left_side {
+    width: 300px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-right: 0.5px solid #A4ACAD;
+}
+
+.heder__left_side-text {
+    width: 131px;
+    height: 22px;
+    font-weight: 500;
+    font-size: 18px;
+    margin-top: 6px;
+    line-height: 22.34px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.main__block_header {
+    border-bottom: 0.5px solid #A4ACAD;
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    width: 1169px;
+}
+
+.heder__left_side-numbers span {
+    color: #FF9846;
+    width: 138px;
+    height: 36px;
+    font-weight: 500;
+    font-size: 18px;
+    font-style: normal;
+    line-height: 18px;
+}
+
+.heder__left_side-time {
+    /* width: 130px; */
+    height: 17px;
+    font-size: 14px;
+    color: #A4ACAD;
+    margin-bottom: 8px;
+}
+ .heder__left_side-time::before {
+    content: url("../images/Часы.svg");
+    vertical-align: middle;
+    margin-right: 6.6px
+ }
+
+ .main__block_header {
+    height: 100px;
+    width: 1170px;
+   width: 100%;
+    min-width: 800px;
+ }
+
+ .heder__right_side {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0 40px 0 15px;
+ }
+
+ .search_img {
+    width: 30px;
+    height: 30px;
+    margin-left: 69px;
+ }
+
+ .heder__right_side-part_2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 18px;
+ }
+
+ .search {
+    margin-left: 10px;
+ }
+
+ .heder__right_side-part_2 a {
+    text-decoration: none;
+    color: #111111;
+ }
+
+ .city {
+    font-size: 14px;
+    color: #A4ACAD;
+    margin-bottom: 4px;
+ }
+
+ .city_name {
+    font-size: 18px;
+ }
+
+ .heder__right_side-part_2 a:hover {
+    color: #FF9846;
+ }

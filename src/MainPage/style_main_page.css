@@ -1,0 +1,42 @@
+.main__page {
+    background-color: #F2F2F2;
+    max-width: 1170px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    /* width: 65%; */
+    height: auto;
+}
+
+.News {
+    width: 97px;
+    height: 30px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29.78px;
+    color: black;
+    text-decoration: none;
+    margin-right: 30px;
+}
+
+.popular {
+    width: 97px;
+    height: 30px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29.78px;
+    color: black;
+    text-decoration: none; 
+}
+
+.active {
+    color: #A4ACAD;
+    border-bottom: 1px solid #A4ACAD;
+}
+
+.caruselka__links {
+    margin-bottom: 30px;
+    align-self: flex-start;
+    margin-left: 110px;
+}

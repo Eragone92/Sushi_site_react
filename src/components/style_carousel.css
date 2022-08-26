@@ -1,0 +1,21 @@
+.carusel .carousel-indicators button{
+    background-color: grey;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    margin-left: 12px;
+    margin-top: 10px;
+}
+
+.carusel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    width: 95%;
+}
+
+.carousel-indicators .active {
+    background-color: orange!important;
+}
+

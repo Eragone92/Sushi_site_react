@@ -1,0 +1,26 @@
+@media all and (max-width: 1290px) {
+    .right__block {
+        display: none!important;
+    }
+    .main__page {
+        width: 85%!important;
+    }
+    .nav{
+        width: 15%!important;
+    }
+}
+
+@media all and (max-width: 1000px) {
+    .nav {
+        display: none!important;
+    }
+    .main__page {
+     width: 100%;
+    }
+    .main__block_gallery {
+       display: none!important;
+      
+    
+    }
+   
+}
